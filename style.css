@@ -1,0 +1,208 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+section {
+  width: 80vw;
+  height: 94vh;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: aliceblue;
+
+}
+
+/*1. header section */
+header {
+  margin: auto;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgb(36, 35, 35);
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  color: white;
+  gap: 790px;
+
+}
+
+nav h1 {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  gap: 80px;
+  color: white;
+  list-style: none;
+
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+
+}
+
+nav ul a:hover {
+  background-color: black;
+  border-radius: 3px;
+
+}
+
+
+/*2. hero section */
+.hero {
+  height: 25vh;
+  background-color: rgb(100, 96, 96);
+
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+
+}
+
+.hero p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+
+}
+
+.button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button button {
+  margin-top: 30px;
+  padding: 7px 35px 7px 35px;
+  background-color: black;
+  border-radius: 5px;
+
+}
+
+.button button a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 10px 4px 10px;
+
+}
+
+.button button a:hover {
+  background-color: rgb(161, 160, 160);
+}
+
+
+/*3. About section */
+.About {
+  height: 20vh;
+  background-color: rgb(100, 96, 96);
+
+
+}
+
+.About h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+
+}
+
+.About p {
+  margin: 25px 25px 51px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+/*4. Feature/service section */
+.feature {
+  height: 35vh;
+  background-color: rgb(100, 96, 96);
+
+}
+
+.feature h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+
+}
+
+.item {
+  width: 300px;
+  height: 150px;
+  margin: 20px 2px 3px 50px;
+  background-color: rgb(131, 129, 127);
+  gap: 20px;
+  border-radius: 7px;
+
+
+}
+
+
+
+.item p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+
+
+/*5. footer section */
+.footer {
+  height: 7vh;
+  background-color: rgb(36, 35, 35);
+}
+
+.footer h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
